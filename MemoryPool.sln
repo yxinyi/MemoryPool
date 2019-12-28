@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryPool", "MemoryPool.vcxproj", "{A76664E9-751B-4BB5-9D01-3403B1850D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Debug|x64.ActiveCfg = Debug|x64
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Debug|x64.Build.0 = Debug|x64
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Debug|x86.Build.0 = Debug|Win32
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Release|x64.ActiveCfg = Release|x64
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Release|x64.Build.0 = Release|x64
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Release|x86.ActiveCfg = Release|Win32
+		{A76664E9-751B-4BB5-9D01-3403B1850D0D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55BF5AA7-9023-47C8-A541-A62B3532EFB2}
+	EndGlobalSection
+EndGlobal
