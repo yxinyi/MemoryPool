@@ -1,3 +1,3 @@
 # MemoryPool
 
-![](/pic/memory.png)
+![](https://github.com/yxinyi/MemoryPool/blob/master/pic/memory.png?raw=true)
