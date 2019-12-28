@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <string>
 template<class T>
 class CMemoryPool {
     template<class T>
@@ -31,7 +32,9 @@ public:
 
     }
     void newStack(const size_t size_){
+        const int _length = sizeof T * size_;
         void* _start_memory = operator new(sizeof T * size_);
+        memset(_start_memory, 0, _length);
         SNode<void>* _node = new SNode<void>(_start_memory, m_memory_first);
         m_memory_first = _node;
 
@@ -72,6 +75,7 @@ public:
 
         //放入当前空闲内存node
         _free_node->m_point = delete_point_;
+        memset(delete_point_, 0, sizeof T);
         _free_node->m_next = m_free;
         m_free = _free_node;
         return true;
