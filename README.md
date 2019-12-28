@@ -28,7 +28,8 @@ node为承载具体对象指针的句柄类,使用单向链表链接,但其实�
     
 ![](https://github.com/yxinyi/MemoryPool/blob/master/pic/memory.png?raw=true)
   
-
+  
+  
 
 
 
