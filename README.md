@@ -18,9 +18,11 @@ node为承载具体对象指针的句柄类,使用单向链表链接,但其实�
     CMemoryPool<T> _pool;
     
 获取元素:
+
     T* _obj = _pool.poolNew();
 
 销毁元素
+
     _pool.poolDelete(_obj);
     
     
